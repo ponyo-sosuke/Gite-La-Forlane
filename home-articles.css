@@ -111,6 +111,136 @@ li, ol, ul {
     font-size: 1.0625rem;
 }
 
+
+/* map page home */
+
+.principale_map {
+  padding: 10px 30px 30px 30px;
+  
+  background-color: #c3c3c3;
+
+  img {
+    text-align: center;
+  }
+
+  .iframe {
+      height:100%;
+      width:100%;
+  }
+  
+}
+
+.principale_map iframe{
+  min-height: 350px;
+  height:100%;
+  width:100%;
+}
+
+
+/* partie intro */
+
+.container_intro {
+  font-family: 'Joselin Sans';
+  font-weight: 500;
+  width: 100%;
+  padding: 50px;
+  padding-top: 30px;
+}
+.mb-3 {
+  font-family: 'Joselin Sans';
+  font-size: x-large;
+  color: #222222;
+}
+/* texte intro */
+.my-4 {
+  font-family: 'Joselin Sans';
+  font-size: 18px;
+  color: #222222;
+  min-width: 450px;
+}
+
+.button-intro {
+  text-align: center;
+}
+
+.button-equipements {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+	border: 2px #cfbb49 solid;
+    background-color: #cfbb49;
+	padding: 8px 30px;
+	border-radius: 30px;
+	color: #4f0909;
+	text-decoration: none;
+}
+/* effet survol */
+.button-equipements:hover {
+	border: 2px #a39026 solid;
+    background-color: #a39026;
+    opacity: 0.8;
+	padding: 8px 30px;
+	border-radius: 30px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.img-fluid {
+  height: 70%;
+  margin: 20px;
+}
+
+.broken-grid_photo {
+  width: 40%;
+
+}
+
+.broken-grid_wrap {
+  flex-direction: column;
+  align-items: left;
+}
+.broken-grid_item {
+  flex-shrink: 0;
+}
+.broken-grid_align-lt .broken-grid_underlay, 
+.broken-grid_align-rt .broken-grid_underlay {
+  padding: 0;
+  z-index: 1;
+}
+.broken-grid_align-lt .broken-grid_underlay, 
+.broken-grid_align-rt .broken-grid_overlay {
+  align-self: flex-start;
+}
+.broken-grid_align-rt .broken-grid_underlay, 
+.broken-grid_align-lt .broken-grid_overlay {
+  align-self: flex-end;
+}
+.broken-grid_align-lt .broken-grid_overlay, 
+.broken-grid_align-rt .broken-grid_overlay {
+  margin-top: 4%;
+  padding: 2rem;
+  z-index: 2;
+}
+.broken-grid_align-lt .broken-grid_overlay {
+  color: #343A40;
+  /*background-color: #91999e;*/
+}
+.broken-grid_align-rt .broken-grid_overlay {
+  color: #FFFFFF;
+  background-color: #343A40;
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+  .broken-grid_align-lt .broken-grid_overlay, 
+  .broken-grid_align-rt .broken-grid_overlay {
+    margin-top: 0;
+  }
+}
+
+
+
 /* code partie FLEX */
 
 .wrapper {
